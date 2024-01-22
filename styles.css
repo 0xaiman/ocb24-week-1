@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 40px;
+    background-color:aliceblue ;
+    /* height:100vh; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    background: white;
+    background-image: linear-gradient(gainsboro .1em, transparent .1em),
+    linear-gradient(90deg,gainsboro .1em, transparent .1em);
+    background-size: 6em 6em;
+    overflow-x:hidden ;
+ 
+
+
+}
+
+header{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+
+
+}
+
+header .line-1{
+    border: 3px solid black;
+    background-color: lightyellow;
+    padding: 5px 20px;
+
+    text-align: start;
+    font-size: 1.25em;
+    width: fit-content;
+    box-shadow: 10px 10px  black;
+
+
+}
+header .line-1:hover{
+    background-color: white;}
+header .line-2{
+    text-align: end;
+    font-size: 1.125em;
+    margin:30px 20px;
+    width:initial;
+
+}
+
+
+
+
+.line-2 span{
+    border: 3px solid black;
+    background-color: lightskyblue;
+    padding:5px 5px;
+    box-shadow: 10px 10px  black;
+    
+
+}
+.line-2 span:hover{
+    background-color: white;}
+
+
+
+.container{
+    position: relative;
+    background-color: lightpink;
+    /* max-height:400px; */
+    max-width:400px;
+    padding: 20px;
+    border:3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 10px 10px  black;
+
+    
+}
+.container:hover{
+    background-color: white;}
+
+.tenor-gif-embed{
+    margin:20px auto;
+    border:3px solid black;
+    box-shadow: 10px 10px  black;
+
+
+}
+
+blockquote{
+    margin:20px 0;
+}
+
+.socials-container{
+    border: 3px solid black;
+    background-color: lightgreen;
+   
+   
+    padding: 15px;
+    margin: 20px;
+    gap:20px;
+    box-shadow: 10px 10px  black;
+
+}
+
+
+.socials-container:hover{
+    background-color: white;}
+
+.signature-container h2{
+    text-decoration: underline;
+}
+.socials-container ul{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.socials-container ul li {
+    text-decoration: none ;
+    list-style: none;
+    
+}
+
+
+svg{
+    width:20px;
+    height:20px;
+    
+}
+
+
+
+@media (max-width:500px){
+body{
+    width:100%;
+    height:100vh;
+    /* padding:10px; */
+    align-items: center;
+}
+
+}
